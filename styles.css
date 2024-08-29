@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333333;
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.escondido {
+    display: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.botoes button {
+    width: 48%;
+}
+
+
+
+/* Estilo geral do container */
+.container {
+    max-width: 1200px; /* Largura máxima da área de conteúdo */
+    margin: 0 auto; /* Centralizar o container */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px; /* Tamanho da fonte maior */
+}
+
+/* Cores alternadas para as linhas */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Destaque para linha ao passar o mouse */
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Esconde as tabelas quando não estão visíveis */
+.escondido {
+    display: none;
+}
+
+/* Estilo adicional para a mensagem */
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
